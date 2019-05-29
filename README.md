@@ -1,2 +1,0 @@
-# echoStar
-echo satr application
