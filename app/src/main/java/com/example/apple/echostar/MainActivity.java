@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
 
             Toast.makeText(this,
                     "Url-09090990",
-                    Toast.LENGTH_LONG).show();
+                    Toast.LENGTH_LONG).show();         
+            Toast.makeText(this, “Url-09090990”, Toast.LENGTH_LONG).show();
             ContentResolver contentResolver= getContentResolver();
 
             Uri VideoUrl = MediaStore.Video.Media.EXTERNAL_CONTENT_URI;
